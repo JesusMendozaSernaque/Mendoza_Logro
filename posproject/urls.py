@@ -19,7 +19,7 @@ from django.urls import path, include
 from django.http import JsonResponse
 
 urlpatterns = [
-    path('', lambda request: JsonResponse({'message': 'Bienvenido al Motor de Promociones'})),
+    path('', lambda request: JsonResponse({'message': 'Bienvenido al Motor de Promociones para ingresar al administrador use : http://127.0.0.1:8000/admin/'})),
     path('admin/', admin.site.urls),
     path('api/', include('caso.urls')),
 ]

@@ -46,9 +46,9 @@ JAZZMIN_SETTINGS = {
     "site_logo": "caso/img/logo.png",
     "site_logo_big": "caso/img/logo_big.png",
     "site_icon": "caso/img/favicon.ico",
-    "site_title": "Reto",
+    "site_title": "Reto Motor Promociones",
     "site_header": "Reto Motor Promociones",
-    "welcome_sign": "Bienvenido al panel de gestión",
+    "welcome_sign": "Bienvenido al panel de gestión de promociones",
 
     "icons": {
         "core.Vehiculo": "fas fa-car-side",
@@ -149,7 +149,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'
 
